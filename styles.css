@@ -1,0 +1,67 @@
+html, body, header {
+  margin: 0;
+  padding: 0;
+  background: #222;
+  color: #FFF;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+section {
+  padding: 10px;
+}
+
+.one {
+  background: red;
+}
+
+.two { 
+  background: blue;
+}
+
+.three {
+  background: green;
+}
+
+.four {
+  background: purple;
+}
+.five {
+  background: orange;
+}
+.six {
+  background: lime;
+}
+
+.seven {
+  background: gold;
+}
+
+.eight {
+  background: hotpink;
+}
+
+.nine {
+  background: aqua;
+}
+
+.ten {
+  background: lightcoral;
+}
+
+.eleven {
+  background: brown;
+}
+
+.twelve {
+  background: black;
+}
