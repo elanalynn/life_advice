@@ -1,10 +1,9 @@
-html, body, header {
+html, body {
   margin: 0;
   padding: 0;
   background: #222;
   color: #FFF;
   font-family: sans-serif;
-  text-align: center;
 }
 
 main {
@@ -18,50 +17,60 @@ main {
 
 section {
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section h2 {
+  display: none;
 }
 
 .one {
-  background: red;
+  background: url('https://media.giphy.com/media/oBwOba7cOph4I/giphy.gif');
 }
 
 .two { 
-  background: blue;
+  background: url('https://media.giphy.com/media/l44QzsOLXxcrigdgI/giphy.gif');
 }
 
 .three {
-  background: green;
+  background: url('https://media.giphy.com/media/Cw4TNLbIHmobS/giphy.gif');
 }
 
 .four {
-  background: purple;
+  background: url('https://media.giphy.com/media/3oKIPpaHCfN7ECPIGs/giphy.gif');
 }
+
 .five {
-  background: orange;
+  background: url('https://media.giphy.com/media/xT4uQvE6Dm6go7psJ2/giphy.gif');
 }
+
 .six {
-  background: lime;
+  background: url('https://media.giphy.com/media/720g7C1jz13wI/giphy.gif');
 }
 
 .seven {
-  background: gold;
+  background: url('https://media.giphy.com/media/l0HlUG5M4pNZ0X42I/giphy.gif');
 }
 
 .eight {
-  background: hotpink;
+  background: url('https://media.giphy.com/media/2H7tpGRWbZMTC/giphy.gif');
 }
 
 .nine {
-  background: aqua;
+  background: url('https://media.giphy.com/media/3o6MbrZ5XZFO294O8o/giphy.gif');
 }
 
 .ten {
-  background: lightcoral;
+  background: url('https://media.giphy.com/media/HUkOv6BNWc1HO/giphy.gif');
 }
 
 .eleven {
-  background: brown;
+  background: url('https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif');
 }
 
 .twelve {
-  background: black;
+  background: url('https://media.giphy.com/media/42eo5Mvgji3Dy/giphy.gif');
 }
